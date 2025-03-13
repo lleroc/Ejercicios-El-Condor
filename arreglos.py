@@ -66,3 +66,19 @@ for fila in temperaturas:
             tempMinima = temp
 print(f"La temperatura maximo registrada es {tempMaxima}")
 print(f"La temperatura minima registrada es {tempMinima}")
+
+
+
+#Ejercicio de Practica
+#1.- Ordenar los valores de mayor a menor
+arreglos = [3, 5, 2, 7, 1, 8, 4, 9, 6]
+for i in range(len(arreglos)):
+    for j in range(i + 1, len(arreglos)):
+        if arreglos[i] < arreglos[j]:
+            arreglos[i] = arreglos[j]
+            arreglos[j] = arreglos[i]
+
+
+
+
+print(arreglos)
